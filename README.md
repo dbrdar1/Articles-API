@@ -7,25 +7,25 @@ You can see the availables routes and methods below.
 
 ## /articles route
 
-### GET method
+#### GET method
 - fetches all articles
 
-### POST method
+#### POST method
 - posts a new article
 
-### DELETE method
+#### DELETE method
 - deletes all articles
 
 ## /articles/{articleTitle} route
 
-### GET method
+#### GET method
 - fetches the article with the specified title {articleTitle} or returns "No articles matching that title found." if there is no article with the requested title.
 
-### PUT method
+#### PUT method
 - replaces the article with the specified title {articleTitle} with a new one
 
-### PATCH method
+#### PATCH method
 - updates the article with the specified title {articleTitle} by only replacing the specified fields
 
-### DELETE method
+#### DELETE method
 - deletes the article with the specified title {articleTitle}
